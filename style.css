@@ -215,22 +215,7 @@ a {
     width: auto;
   }
   img {
-    width: 150px;
-    object-fit: contain;
-    flex-grow: 1;
-  }
-}
-@media  screen and (min-width: 10px){
-  .container {
-    justify-content: none;
-    gap : 0px;
-  }
-  .item {
-    flex-direction: column;
-    width: auto;
-  }
-  img {
-    width: 150px;
+    width: 100px;
     object-fit: contain;
     flex-grow: 1;
   }
