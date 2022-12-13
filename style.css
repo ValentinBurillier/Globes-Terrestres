@@ -6,7 +6,7 @@
   color: white;
 }
 body{
-  background-image: url('../assets/images/banniere.jpg');
+  background-image: url('assets/images/banniere.jpg');
   
   background-size: contain;
 }
