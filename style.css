@@ -207,7 +207,7 @@ a {
 }
 @media  screen and (max-width: 311px){
   .container {
-    justify-content: none;
+    justify-content: flex-start;
     gap : 0px;
   }
   .item {
@@ -215,7 +215,7 @@ a {
     width: auto;
   }
   img {
-    width: 100px;
+    width: 70px;
     object-fit: contain;
     flex-grow: 1;
   }
