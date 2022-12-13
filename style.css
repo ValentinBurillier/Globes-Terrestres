@@ -230,7 +230,7 @@ a {
     width: auto;
   }
   img {
-    width: 100px;
+    width: 150px;
     object-fit: contain;
     flex-grow: 1;
   }
