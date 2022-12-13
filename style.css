@@ -205,3 +205,18 @@ a {
     flex-grow: 1;
   }
 }
+@media  screen and (max-width: 311px){
+  .container {
+    justify-content: none;
+    gap : 0px;
+  }
+  .item {
+    flex-direction: column;
+    width: auto;
+  }
+  img {
+    width: 150px;
+    object-fit: contain;
+    flex-grow: 1;
+  }
+}
