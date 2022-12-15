@@ -5,46 +5,30 @@
   box-sizing: border-box;
   color: white;
 }
-body{
-  background-image: url('banniere.jpg');
-  
-  background-size: contain;
-}
 a {
   text-decoration: none;
 }
-li {
-  list-style: none;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+h1, h2, h3, a {
+  text-align: center;
 }
 h1 {
-  color: white;
-  text-align: center;
   text-shadow: 2px 4px 1px hsl(60,100%, 41%, 0.6);
   font-size: 3rem;
   font-weight: bold;
-  background: radial-gradient(darkblue, black, white);
   padding: 10px;
 }
-h1:hover {
+h1:hover, a:hover {
   color: #05002e;
   text-shadow: 2px 4px 1px white;
 }
-nav {
-  margin-top: 1rem;
-}
-ul {
-  display: flex;
-  justify-content: center;
-  column-gap: 4rem;
-}
-li {
-  font-size: 2rem;
-}
-a:hover {
-  color: #05002e;
-  text-shadow: 2px 4px 1px white;
-}
-
 /* RESPONSIVE */
 @media screen AND (max-width: 1285px){
   h1 {
@@ -99,12 +83,10 @@ main {
   flex-direction: column;
 }
 h2 {
-  text-align: center;
   font-size: 2rem;
   margin-top: 1rem;
 }
 h3 {
-  text-align: center;
   font-size: 1.5rem;
   margin-top: 1rem;
 }
@@ -113,7 +95,6 @@ h3 {
   flex-wrap: wrap;
   gap: 5px 10px;
   justify-content: center;
-  border-bottom: 1px solid white;
   margin-bottom: 10px;
 }
 .item {
@@ -125,9 +106,9 @@ h3 {
 }
 .button {
   border: 1px solid white;
+  font-weight: bold;
+  text-shadow: 2px 4px 1px hsl(60,100%, 41%, 0.6);
   padding: 5px ;
-  background-color: rgb(0, 0, 63);
-  color: white;
   border-radius: 0% 20% 0% 20%;
   text-decoration: none;
   display: inline-block;
@@ -140,9 +121,7 @@ h3 {
   border-block-end-color: blue;
   background-color: rgba(0, 0, 63, 0.5);
 }
-a {
-  text-align: center;
-}
+
 /* RESPONSIVE PART */
 @media  screen and (max-width: 1185px){
   h2 {
@@ -219,4 +198,15 @@ a {
     object-fit: contain;
     flex-grow: 1;
   }
+}
+/*START FOOTER */
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  gap: 50px;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
