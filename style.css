@@ -7,6 +7,17 @@
 }
 a {
   text-decoration: none;
+  animation: apparition 1.0s ease-in-out;
+}
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 #myVideo {
   position: fixed;
@@ -103,6 +114,17 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: image-apparition 1.5s ease-in-out;
+}
+@keyframes image-apparition {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .button {
   border: 1px solid white;
