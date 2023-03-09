@@ -41,7 +41,16 @@ h1:hover, a:hover {
   text-shadow: 2px 4px 1px white;
 }
 
+article {
+  background-color: white;
+  height: 700px;
+  width: 700px;
+  border-radius: 10% 30%;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
+  box-shadow: -20px 8px 20px 9px #05002e;
 
+}
 /* RESPONSIVE */
 @media screen AND (max-width: 1285px){
   h1 {
@@ -93,7 +102,7 @@ h1:hover, a:hover {
 /*START MAIN*/
 main {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 h2 {
   font-size: 2rem;
